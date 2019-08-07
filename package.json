@@ -1,0 +1,40 @@
+{
+  "name": "@dblk/autopilot",
+  "version": "1.0.0",
+  "description": "Handle all command received as headers for CICP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "plugin": {
+    "provides": [
+      "autopilot"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dblk/autopilot"
+  },
+  "homepage": "https://github.com/dblk/autopilot#readme",
+  "keywords": [
+    "cicp",
+    "autopilot",
+    "headers",
+    "yamp"
+  ],
+  "dependencies": {
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "4.17.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0"
+  },
+  "author": {
+    "name": "Remy Boulanouar",
+    "email": "admin@dblk.org"
+  },
+  "license": "MIT"
+}
